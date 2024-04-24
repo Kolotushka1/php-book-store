@@ -1,0 +1,135 @@
+body {
+    background-color: #F4F5F7;
+}
+/* Header */
+#myBookHeaderLink {
+    font-size: 30px;
+    text-decoration: none;
+    color: white;
+    margin-top: 42px;
+    margin-bottom: 42px;
+}
+#header {
+    background-color: #20A3DC;
+}
+.col {
+    padding: 0 !important;
+}
+#searchInputBlock {
+    margin-top: 32px;
+    margin-bottom: 32px;
+    height: 60px;
+}
+#searchInput {
+    font-size: 20px;
+    z-index: 0;
+}
+.input-group-append {
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    z-index: 1;
+}
+.header-links {
+    margin-top: 32px;
+    margin-bottom: 32px;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+/* FOOTER */
+#footer {
+    font-size: 30px;
+    color: white;
+    margin-top: 30px;
+}
+.footer-text-center {
+    text-decoration: none;
+    color: white;
+}
+.footer-text-center > a {
+    padding-top: 14px;
+    text-decoration: none;
+    color: white;
+}
+.social-media-footer {
+    margin-top: 38px;
+    padding: 0;
+}
+/* REGISTRATION FORM */
+.authorization-form-main {
+    background-color: white;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.form-to-authorize-input {
+    border: 3px solid #20A3DC;
+    border-radius: 10px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    background: #fff;
+}
+#form-to-authorize-button {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    background: #20A3DC;
+    color: white;
+    font-size: 18px;
+    height: 50px;
+    margin-bottom: 20px;
+}
+.forgetPassword {
+    color: #20A3DC;
+    text-decoration: none;
+    font-size: 16px;
+}
+.forgetPassword:hover {
+    color: black;
+}
+.enter-by-another {
+    margin-top: 20px;
+    font-size: 18px;
+}
+.enter-by-another > a {
+    text-decoration: none;
+    margin-right: 10px;
+}
+.enter-by-another > a > img {
+    height: 45px;
+    margin-bottom: 25px;
+}
+.still-do-not-have-account {
+    background-color: white;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    margin-bottom: 13px;
+}
+.still-do-not-have-account > p {
+    margin: 0;
+    font-size: 18px;
+}
+.still-do-not-have-account > p > a {
+    text-decoration: none;
+    color: #20A3DC;
+}
+.still-do-not-have-account > p > a:hover {
+    text-decoration: none;
+    color: black;
+}
+.form-check > .form-check-label > p {
+    font-size: 16px;
+    margin: 0;
+}
+.form-check > .form-check-label > p > a {
+    text-decoration: none;
+    color: #20A3DC;
+}
+.form-check > .form-check-label > p > a:hover {
+    color: black;
+}
+.form-check-input {
+    border: 1px solid #20A3DC !important;
+    width: 24px;
+    height: 24px;
+}

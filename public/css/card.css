@@ -1,0 +1,252 @@
+body {
+    background-color: #F4F5F7;
+}
+/* Header */
+#myBookHeaderLink {
+    font-size: 30px;
+    text-decoration: none;
+    color: white;
+    margin-top: 42px;
+    margin-bottom: 42px;
+}
+#header {
+    background-color: #20A3DC;
+}
+.col {
+    padding: 0 !important;
+}
+#searchInputBlock {
+    margin-top: 32px;
+    margin-bottom: 32px;
+    height: 60px;
+}
+#searchInput {
+    font-size: 20px;
+    z-index: 0;
+}
+.input-group-append {
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    z-index: 1;
+}
+.header-links {
+    margin-top: 32px;
+    margin-bottom: 32px;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+/* BOOK INFO */
+.main-book-info {
+    background-color: white;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    padding-bottom: 10px;
+}
+.column-of-characters {
+    margin-top: auto;
+}
+.list-characters {
+    margin-top: 30px;
+    margin-bottom: 0;
+    font-size: 16px;
+    padding-left: 20px;
+}
+.card-body {
+    display: flex;
+    flex-direction: column;
+}
+.card-subtitle {
+    font-size: 18px;
+    padding-left: 20px;
+}
+.card-top-main > p > a {
+    text-decoration: none;
+    color: #20A3DC;
+}
+.card-top-main > p > a:hover {
+    color: black;
+}
+.card-top-main > a {
+    text-decoration: none;
+    color: #20A3DC;
+}
+.card-top-main > a:hover {
+    color: black;
+}
+
+#change-card {
+    text-decoration: none;
+    color: white;
+    border: solid 1px black;
+    background-color: black;
+    border-radius: 10px;
+    font-size: 18px;
+    padding: 10px;
+}
+
+#change-card:hover {
+    color: black;
+    background-color: white;
+}
+
+#name-of-book {
+    margin-bottom: 0;
+}
+#genre-of-book {
+    padding-top: 20px;
+}
+#rating-top {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+#publisher {
+    text-decoration: none;
+    color: #20A3DC;
+}
+#publisher:hover {
+    color: black;
+}
+/* COST */
+.cost {
+    background-color: white;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.cost-div {
+    display: flex;
+    margin-bottom: 20px;
+}
+#form-to-add-to-busket {
+    border-radius: 10px;
+    background: #20A3DC;
+    color: white;
+    font-size: 18px;
+    height: 50px;
+    margin-bottom: 20px;
+}
+#form-to-add-to-likes {
+    border-radius: 10px;
+    background-color: #F4F5F7;
+    height: 50px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+.feedback {
+    border-radius: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+.feedback-top {
+    display: flex;
+    justify-content: space-between;
+}
+.feedback-top .name {
+    margin: 0;
+}
+.feedback-top .date {
+    margin: 0;
+}
+.feedback-good {
+    background-color: #EBFFED;
+}
+.feedback-bad {
+    background-color: #FFEAE8;
+}
+.show-more {
+    color: white;
+    border-radius: 5px;
+    background: #20a3dc;
+    font-size: 18px;
+    width: 200px;
+}
+/* ВСПЛЫВАЮЩЕЕ ОКНО */
+.form-container {
+    padding: 20px;
+    background-color: #20A3DC;
+    border-radius: 20px;
+    color: white;
+}
+.form-container .btn {
+    background-color: white;
+    color: #20A3DC;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+.form-container .cancel {
+    background-color: red;
+    color: white !important;
+}
+.form-container .btn:hover,
+.open-button:hover {
+    opacity: 1;
+}
+.form-popup {
+    display: none;
+    top: 0%;
+    z-index: 9;
+}
+.show {
+    display: block;
+}
+#openFormBtn {
+    border-radius: 5px;
+    background: #20a3dc;
+    color: white;
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+textarea {
+    border-radius: 10px;
+}
+textarea:focus, textarea:active {
+    outline: none !important;
+    box-shadow: none !important;
+}
+#feedback-text-user {
+    resize: none;
+    min-height: 100px;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+@media (min-width: 576px) {
+    .feedback-user-buttons {
+        display: flex;
+    }
+    .conf {
+        margin-right: 10px;
+    }
+    .cancel {
+        margin-left: 10px;
+    }
+}
+/* FOOTER */
+#footer {
+    font-size: 30px;
+    color: white;
+    margin-top: 30px;
+}
+.footer-text-center {
+    text-decoration: none;
+    color: white;
+}
+.footer-text-center > a {
+    padding-top: 14px;
+    text-decoration: none;
+    color: white;
+}
+.social-media-footer {
+    margin-top: 38px;
+    padding: 0;
+}
